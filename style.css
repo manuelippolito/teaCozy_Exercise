@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+}
+
+/*----- header ---*/
+
+nav {
+    text-align: right;
+}
+
+a {
+    color:bisque;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+/*----- MISSION ---*/
+
+h2, h4 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.mission {
+    background-image: url("image-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    max-width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px auto;
+    position: relative;
+}
+
+.description1 {
+    flex: 0 1 auto;
+    padding: .5em;
+}
+
+/*----- TEA OF THE MONTH ---*/
+
+.tea {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1em;
+}
+
+figure img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*----- LOCATION ---*/
+
+.addresslocation {
+    background-image: url("image-myrtleAve.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 40px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.addresscontainer {
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+address {
+    background-color: black;
+    width: 300px;
+    height: 260px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address h3 p {
+    text-align: center;
+}
+
+/*----- CONTACT ---*/
+
+.maincontact {
+    text-align: center;
+    color: seashell;
+}
+
+.maincontact:hover {
+    text-decoration: underline;
+}
+
+/*----- footer ---*/
+
+footer {
+ color: seashell;
+ text-decoration: none;
+ display: block;
+ margin-top: 1.5rem;
+ font-size: .8rem;
+
+}
